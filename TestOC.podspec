@@ -15,6 +15,7 @@ Pod::Spec.new do |spec|
     spec.platform     = :ios
 
     spec.vendored_frameworks = 'Bugly.framework'
-
+s.frameworks = 'SystemConfiguration','Security'
+s.library = 'z','c++'
 
 end
