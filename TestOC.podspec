@@ -80,8 +80,9 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/JasonSparrow/TestOC/tree/master/TestOC/Bugly.framework"}
-spec.vendored_frameworks = 'TestOC.framework'
+  spec.source       = { :git => "https://github.com/JasonSparrow/TestOC.git", :tag => spec.version }
+
+    spec.vendored_frameworks = 'Bugly.framework'
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
