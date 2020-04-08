@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
 
     spec.authors = "王腾飞"
     spec.name         = "TestOC"
-    spec.version      = "0.0.1"
+    spec.version      = "1.0.0"
     spec.summary      = "description of TestOC."
     spec.description  = "description"
     spec.homepage     = "https://github.com/JasonSparrow/TestOC"
