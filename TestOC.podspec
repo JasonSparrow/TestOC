@@ -6,9 +6,7 @@ Pod::Spec.new do |spec|
     spec.name         = "TestOC"
     spec.version      = "0.0.1"
     spec.summary      = "description of TestOC."
-    spec.description  = <<-DESC
-            description
-           DESC
+    spec.description  = "description"
     spec.homepage     = "https://github.com/JasonSparrow/TestOC"
     spec.license      = "MIT"
     spec.author       = { "Tencent" => "bugly@tencent.com" }
