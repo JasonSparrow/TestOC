@@ -80,7 +80,8 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/JasonSparrow/TestOC.git", :tag => "0.0.1" }
+  spec.source       = { :git => "https://github.com/JasonSparrow/TestOC/tree/master/TestOC/Bugly.framework"}
+spec.vendored_frameworks = 'TestOC.framework'
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,10 +92,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "TestOC"
-  spec.exclude_files = "Classes/Exclude"
+   #spec.source_files  = "TestOC"
+   #spec.exclude_files = "Classes/Exclude"
 
-   spec.public_header_files = "Classes/**/*.h"
+    #spec.public_header_files = "Classes/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -122,7 +123,6 @@ Pod::Spec.new do |spec|
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
-spec.vendored_frameworks = 'TestOC.framework'
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
