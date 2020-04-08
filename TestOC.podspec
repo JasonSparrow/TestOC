@@ -14,8 +14,6 @@ Pod::Spec.new do |spec|
     spec.requires_arc = true
     spec.platform     = :ios
 
-    spec.vendored_frameworks = 'Bugly.framework'
-s.frameworks = 'SystemConfiguration','Security'
-s.library = 'z','c++'
+    spec.ios.vendored_frameworks = 'TestOC.framework'
 
 end
